@@ -107,7 +107,7 @@ const Projects = ({ openModal, setOpenModal }) => {
           Here are my web app projects from the start of my web development
           journey.
         </Desc>
-        {/* <ToggleButtonGroup>
+        <ToggleButtonGroup>
           <ToggleButton
             active={toggle === "all"}
             onClick={() => setToggle("all")}
@@ -121,7 +121,7 @@ const Projects = ({ openModal, setOpenModal }) => {
           >
             WEB APP"S
           </ToggleButton>
-          <Divider />
+          {/* <Divider />
           <ToggleButton
             active={toggle === "android app"}
             onClick={() => setToggle("android app")}
@@ -134,8 +134,8 @@ const Projects = ({ openModal, setOpenModal }) => {
             onClick={() => setToggle("machine learning")}
           >
             MACHINE LEARNING
-          </ToggleButton>
-        </ToggleButtonGroup> */}
+          </ToggleButton> */}
+        </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
             projects.map((project) => (
@@ -146,7 +146,7 @@ const Projects = ({ openModal, setOpenModal }) => {
                 setOpenModal={setOpenModal}
               />
             ))}
-          {/* {projects
+          {projects
             .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard
@@ -155,7 +155,7 @@ const Projects = ({ openModal, setOpenModal }) => {
                 openModal={openModal}
                 setOpenModal={setOpenModal}
               />
-            ))} */}
+            ))}
         </CardContainer>
       </Wrapper>
     </Container>
