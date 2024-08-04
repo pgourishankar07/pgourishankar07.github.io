@@ -269,6 +269,23 @@ export const education = [
 
 export const projects = [
   {
+    id: 20,
+    title: "Genie ChatBot",
+    date: "Aug 2024",
+    description:
+      "Build a chatbot application using ReactJS, Gemini API, and a simple website to create an interactive, user-friendly interface for real-time communication and information retrieval.",
+    image:
+      "https://github.com/pgourishankar07/GenieChatBot/raw/master/Test.png",
+    tags: [
+      "React Js",
+      "Gemini API",
+      "Netlify",
+    ],
+    category: "web app",
+    github: "https://github.com/pgourishankar07/GenieChatBot",
+    webapp: "https://genie-chatbot-gouri-shankar.netlify.app",
+  },
+  {
     id: 9,
     title: "Travel Tracker App",
     date: "Jun 2024 - Jul 2024",
