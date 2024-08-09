@@ -269,6 +269,23 @@ export const education = [
 
 export const projects = [
   {
+    id: 21,
+    title: "ImagiGen AI",
+    date: "Aug 2024",
+    description:
+      "Developed a MERN full-stack image generator app where users can create images by providing prompts. The generated images can be posted in the website, utilizing APIs for seamless integration. The images are securely stored in Cloudinary.",
+    image:
+      "https://github.com/pgourishankar07/ImagiGen-AI/raw/master/Test.png",
+    tags: [
+      "React Js",
+      "Ninjas API",
+      "Netlify","Node Js","Mongo DB","Cloudinary","Render"
+    ],
+    category: "web app",
+    github: "https://github.com/pgourishankar07/ImagiGen-AI",
+    webapp: "https://imagigenai-gouri-shankar.netlify.app/",
+  },
+  {
     id: 20,
     title: "Genie ChatBot",
     date: "Aug 2024",
