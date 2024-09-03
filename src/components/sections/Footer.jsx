@@ -6,6 +6,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import EmailIcon from "@mui/icons-material/Email";
+import CodeIcon from "@mui/icons-material/Code";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -109,6 +110,9 @@ const Footer = () => {
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display">
             <InstagramIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.leetcode} target="display">
+            <CodeIcon />
           </SocialMediaIcon>
           <SocialMediaIcon
             href={"mailto:pgourishankar07@gmail.com?"}
