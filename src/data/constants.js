@@ -269,6 +269,38 @@ export const education = [
 
 export const projects = [
   {
+    id: 23,
+    title: "MemoGram",
+    date: "Aug 2024",
+    description:
+      "I developed Memogram, a MERN stack application that enables users to post and share interesting events from their lives. This platform allows users to create personal entries about memorable moments and experiences. Built with MongoDB for data storage, Express.js for server-side functionality, React for the frontend, and Node.js for backend processes",
+    image:
+      "https://raw.githubusercontent.com/pgourishankar07/MemoGram/master/Test.png",
+    tags: [
+      "React Js",
+      "ExpressJs","Node Js","Mongo DB","React Redux"
+    ],
+    category: "web app",
+    github: "https://github.com/pgourishankar07/MemoGram",
+    webapp: "https://drive.google.com/drive/folders/1gYC3Q1JXkNz2yZte5AKTwgbhsKyZ_Lqz",
+  },
+  {
+    id: 22,
+    title: "Admin Panel",
+    date: "Aug 2024",
+    description:
+      "I developed a MERN stack Admin Panel that visualizes sales, customer segments, and employee data using pie charts and graphs. The application, built with MongoDB, Express.js, React, and Node.js, provides an interactive dashboard for efficient data management. It allows users to easily track key metrics and gain insights into business performance. The integration of data visualization tools simplifies complex information, aiding in informed decision-making and enhancing overall management efficiency.",
+    image:
+      "https://raw.githubusercontent.com/pgourishankar07/admin-panel-frontend/master/Test.png",
+    tags: [
+      "React Js",
+      "ExpressJs","Node Js","Mongo DB","Render"
+    ],
+    category: "web app",
+    github: "https://github.com/pgourishankar07/admin-panel-frontend",
+    webapp: "https://master--adminpanel-gouri-shankar.netlify.app/",
+  },
+  {
     id: 21,
     title: "ImagiGen AI",
     date: "Aug 2024",
