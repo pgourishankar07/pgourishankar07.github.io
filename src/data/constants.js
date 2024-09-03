@@ -10,6 +10,7 @@ export const Bio = {
   twitter: "https://twitter.com/pgourishankar07",
   insta: "https://www.instagram.com/gourishankar_07_/",
   facebook: "https://www.facebook.com/gourishankar.bunty",
+  leetcode: "https://leetcode.com/pgourishankar07/",
 };
 
 export const skills = [
