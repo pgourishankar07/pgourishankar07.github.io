@@ -14,7 +14,7 @@ const TestimonialCard = ({ imageSrc, name, description }) => {
         <Content>
           <Name>{name}</Name>
           <Description>{description}</Description>
-          <Link to="https://tanushmm.github.io/tanush-portfolio/">
+          <Link to="https://tanushmm.github.io/">
             Portfolio
           </Link>
         </Content>
